@@ -55,7 +55,7 @@
   },
   "peerDependencies": {
     "mapbox-gl": ">=1.13.0",
-    "maplibre-gl": ">=1.13.0",
+    "maplibre-gl": "github:CalRobert/maplibre-gl-js",
     "react": ">=16.3.0",
     "react-dom": ">=16.3.0"
   },
@@ -64,14 +64,14 @@
       "optional": true
     },
     "maplibre-gl": {
-      "optional": true
+      "optional": false
     }
   },
   "devDependencies": {
     "@types/react": "^16.0.0",
     "jsdom": "^16.5.0",
     "mapbox-gl": "^2.14.0",
-    "maplibre-gl": "^2.4.0",
+    "maplibre-gl": "github:CalRobert/maplibre-gl-js",
     "ocular-dev-tools": "2.0.0-alpha.15",
     "pre-commit": "^1.2.2",
     "react": "^18.0.0",
