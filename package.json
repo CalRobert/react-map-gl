@@ -64,7 +64,7 @@
       "optional": true
     },
     "maplibre-gl": {
-      "optional": true
+      "optional": false
     }
   },
   "devDependencies": {
