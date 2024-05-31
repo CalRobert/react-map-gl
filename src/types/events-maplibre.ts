@@ -9,7 +9,7 @@ import {
   MapSourceDataEvent,
   MapWheelEvent,
   MapLibreZoomEvent as MapBoxZoomEvent
-} from 'maplibre-gl';
+} from 'maplibre-gl-headers';
 import {ErrorEvent as _ErrorEvent, ViewStateChangeEvent as _ViewStateChangeEvent} from './events';
 
 export type {

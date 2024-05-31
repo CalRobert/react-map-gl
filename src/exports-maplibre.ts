@@ -11,7 +11,7 @@ import type {
   GeolocateControl as MaplibreGeolocateControl,
   NavigationControl as MaplibreNavigationControl,
   ScaleControl as MaplibreScaleControl
-} from 'maplibre-gl';
+} from 'maplibre-gl-headers';
 import {MapStyle, AnyLayer, AnySource} from './types/style-spec-maplibre';
 
 import {default as _Map, MapProps as _MapProps} from './components/map';
@@ -50,7 +50,7 @@ export function useMap() {
 
 export type MapProps = _MapProps<MapOptions, MapStyle, MapCallbacks, MaplibreMap>;
 export type MapRef = _MapRef<MaplibreMap>;
-const mapLib = import('maplibre-gl');
+const mapLib = import('maplibre-gl-headers');
 export const Map = (() => {
   return React.forwardRef(function Map(props: MapProps, ref: React.Ref<MapRef>) {
     return _Map<MapOptions, MapStyle, MapCallbacks, MaplibreMap>(props, ref, mapLib);
@@ -127,7 +127,7 @@ export type {
   ImageSource,
   CanvasSource,
   VectorTileSource
-} from 'maplibre-gl';
+} from 'maplibre-gl-headers';
 export * from './types/style-spec-maplibre';
 
 // Events

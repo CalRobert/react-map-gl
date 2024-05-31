@@ -1,5 +1,5 @@
 {
-  "name": "react-map-gl",
+  "name": "react-map-gl-headers",
   "description": "React components for Mapbox GL JS-compatible libraries",
   "version": "7.2.0-beta.1",
   "keywords": [
@@ -11,7 +11,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/visgl/react-map-gl.git"
+    "url": "https://github.com/calrobert/react-map-gl.git"
   },
   "license": "MIT",
   "type": "module",
@@ -55,7 +55,7 @@
   },
   "peerDependencies": {
     "mapbox-gl": ">=1.13.0",
-    "maplibre-gl": "github:CalRobert/maplibre-gl-js",
+    "maplibre-gl-headers": "file:../maplibre-gl-js",
     "react": ">=16.3.0",
     "react-dom": ">=16.3.0"
   },
@@ -63,7 +63,7 @@
     "mapbox-gl": {
       "optional": true
     },
-    "maplibre-gl": {
+    "maplibre-gl-headers": {
       "optional": false
     }
   },
@@ -71,7 +71,7 @@
     "@types/react": "^16.0.0",
     "jsdom": "^16.5.0",
     "mapbox-gl": "^2.14.0",
-    "maplibre-gl": "github:CalRobert/maplibre-gl-js",
+    "maplibre-gl-headers": "file:../maplibre-gl-js",
     "ocular-dev-tools": "2.0.0-alpha.15",
     "pre-commit": "^1.2.2",
     "react": "^18.0.0",
